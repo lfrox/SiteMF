@@ -306,6 +306,10 @@ textarea.input {
   background: #e61212 !important;
 }
 
+.social-googleplay {
+  background: #1fe7ee !important;
+}
+
 /*=========================================================
 	NAVIGATION
 ===========================================================*/
@@ -502,7 +506,7 @@ textarea.input {
 }
 
 .nav-menu li.has-dropdown>.dropdown .dropdown-body {
-  background-color: rgba(109, 109, 109, 0.856);
+  background-color: rgba(43, 43, 43, 0.856);
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   border-top: 2px solid #ee4266;
@@ -543,7 +547,7 @@ textarea.input {
 }
 
 .nav-menu li.has-dropdown.megamenu>.dropdown .dropdown-list {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .nav-menu li.has-dropdown.megamenu>.dropdown .dropdown-list li a {
@@ -557,7 +561,7 @@ textarea.input {
 
 .nav-menu li.has-dropdown.megamenu>.dropdown.tab-dropdown .tab-content {
   z-index: 70;
-  position: relative;
+  position: absolute;
   margin-left: -30px;
 }
 
@@ -1514,6 +1518,19 @@ PORTFOLIO
   margin: 10px;
   border-radius: 10px;
   vertical-align: middle;
+}
+
+/*
+Paragrafo
+*/
+
+.paragrafo {
+  text-indent: 40px;
+  text-align: justify;
+}
+
+.titulobio h3 {
+  color: white;
 }
 
 /*=========================================================
