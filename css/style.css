@@ -286,6 +286,26 @@ textarea.input {
   background: #d341b2 !important;
 }
 
+.social-spotify {
+  background: #23cf5f !important;
+}
+
+.social-apple {
+  background: #cacaca !important;
+}
+
+.social-soundcloud {
+  background: #eb581e !important;
+}
+
+.social-amazon {
+  background: #ffbe5d !important;
+}
+
+.social-youtube {
+  background: #e61212 !important;
+}
+
 /*=========================================================
 	NAVIGATION
 ===========================================================*/
@@ -323,7 +343,7 @@ textarea.input {
 }
 
 #nav-bottom {
-  border-top: 1px solid #e8eaed;
+  border-top: 1px solid #edeae8;
 }
 
 /*----------------------------*\
@@ -1373,9 +1393,9 @@ textarea.input {
 
 #footer {
   margin-top: 40px;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #1b1c1e;
+  background-color: #1b1c1e73;
   width: 100%;
 }
 
@@ -1402,7 +1422,7 @@ textarea.input {
 }
 
 .footer-logo {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .footer-logo .logo {
@@ -1479,6 +1499,21 @@ textarea.input {
 
 .contact-social li a:hover {
   opacity: 0.9;
+}
+
+/*
+PORTFOLIO
+*/
+.fancybox a img:hover{
+  opacity:0.8;
+  -moz-opacity:0.8;
+  -webkit-opacity:0.8;
+}
+
+.fancybox a img {
+  margin: 10px;
+  border-radius: 10px;
+  vertical-align: middle;
 }
 
 /*=========================================================
