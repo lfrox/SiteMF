@@ -486,7 +486,7 @@ textarea.input {
   position: absolute;
   left: 0;
   width: 200px;
-  text-align: left;
+  text-align: center;
   z-index: 60;
   -webkit-transform: translateY(10px);
   -ms-transform: translateY(10px);
@@ -506,7 +506,7 @@ textarea.input {
 }
 
 .nav-menu li.has-dropdown>.dropdown .dropdown-body {
-  background-color: rgba(43, 43, 43, 0.856);
+  background-color: rgba(24, 24, 24, 0.95);
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   border-top: 2px solid #ee4266;
@@ -1529,8 +1529,42 @@ Paragrafo
   text-align: justify;
 }
 
-.titulobio h3 {
+.titulobio h1, h3, h4, p {
   color: white;
+}
+
+/*
+Membros
+*/
+
+div .media-body h4 {
+  color: white;
+}
+
+/*
+Album cover
+*/
+
+div .albuncover img {
+  width: 40%;
+  padding: 10px;
+}
+
+.albuncover img {
+  flex-direction: row;
+  width: 40%;
+}
+
+div .titulobio a i {
+  padding: 10px;
+}
+
+div ul.nav-menu.album li img {
+  width: 80%;
+}
+
+.nav-menu li.has-dropdown>.dropdown.album {
+  width: 100%;
 }
 
 /*=========================================================
